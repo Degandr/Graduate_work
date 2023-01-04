@@ -1,0 +1,5 @@
+/UI_tests/node_modules
+/UI_tests/.gitignore
+/UI_tests/.idea
+/Unit_and API_tests/.idea
+/Unit_and API_tests/node_modules
