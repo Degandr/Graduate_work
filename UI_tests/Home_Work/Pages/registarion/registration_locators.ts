@@ -1,0 +1,16 @@
+export enum Registration_locators {
+  login = "[class='auth-bar__item auth-bar__item--text']",
+  registrationPage = "//*/a[@href='https://profile.onliner.by/registration']",
+  loginField = '//*/input[@placeholder="Ваш e-mail"]',
+  passwordField = '//*/input[@placeholder="Придумайте пароль"]',
+  confirmPassword = '//*/input[@placeholder="Повторите пароль"]',
+  registrationButton = '//*/button[@type="submit"]',
+  errorMessage = "[class='growl-content']",
+  checkBox = "[class='i-checkbox__faux']",
+  emailValidationMessage = "(//*/div[@class='auth-form__description auth-form__description_error auth-form__description_base auth-form__description_extended-other'])[1]",
+  passwordValidationMessage = "(//*/div[@class='auth-form__description auth-form__description_error auth-form__description_base auth-form__description_extended-other'])[2]",
+  passwordConfirmValidationMessage = "(//*/div[@class='auth-form__description auth-form__description_error auth-form__description_base auth-form__description_extended-other'])[3]",
+  facebookButton = "[class='auth-button auth-button_subsidiary auth-button_huge auth-form__button auth-form__button_fb']",
+  vkButton = "[class='auth-button auth-button_extra auth-button_huge auth-form__button auth-form__button_vk']",
+  googleButton = "[class='auth-button auth-button_accessorial auth-button_huge auth-form__button auth-form__button_gg']",
+}

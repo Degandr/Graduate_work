@@ -1,0 +1,15 @@
+export enum Login_locators {
+  login = "[class='auth-bar__item auth-bar__item--text']",
+  loginField = '//*/input[@placeholder="Ник или e-mail"]',
+  passwordField = '//*/input[@placeholder="Пароль"]',
+  loginButton = '(//*/button[@type="submit"])[2]',
+  errorMessage = "[class='auth-form__description auth-form__description_error auth-form__description_base auth-form__description_extended-other']",
+  facebookButton = "[class='auth-button auth-button_subsidiary auth-button_huge auth-form__button auth-form__button_fb']",
+  vkButton = "[class='auth-button auth-button_extra auth-button_huge auth-form__button auth-form__button_vk']",
+  googleButton = "[class='auth-button auth-button_accessorial auth-button_huge auth-form__button auth-form__button_gg']",
+  logotype = "(//*/a[@href='https://www.onliner.by'])[3]",
+  searchField = "[class='fast-search__input']",
+  inBasket = "В корзину",
+  titleOnError = "//*/div/h1",
+  restrictionAge = "[class='b-top-navigation-age']",
+}
